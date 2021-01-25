@@ -7,7 +7,7 @@ It handles empty lines more smartly than `goimport` does.
 ## Download
 
 ```shell
-$ go get github.com/daixiang0/gci
+$ go get github.com/mathieupost/gci
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ usage: gci [flags] [path ...]
 
 ## Examples
 
-Run `gci -w -local github.com/daixiang0/gci main.go` and you will handle following cases.
+Run `gci -w -local github.com/mathieupost/gci main.go` and you will handle following cases.
 
 ### simple case
 
@@ -34,7 +34,7 @@ import (
 
   "fmt"
 
-  "github.com/daixiang0/gci"
+  "github.com/mathieupost/gci"
 )
 ```
 
@@ -47,7 +47,7 @@ import (
 
   "golang.org/x/tools"
 
-  "github.com/daixiang0/gci"
+  "github.com/mathieupost/gci"
 )
 ```
 
@@ -58,7 +58,7 @@ package main
 import (
   "fmt"
   go "github.com/golang"
-  "github.com/daixiang0"
+  "github.com/mathieupost"
 )
 ```
 
@@ -71,7 +71,7 @@ import (
 
   go "github.com/golang"
 
-  "github.com/daixiang0/gci"
+  "github.com/mathieupost/gci"
 )
 ```
 
@@ -82,7 +82,7 @@ package main
 import (
   "fmt"
   _ "github.com/golang" // golang
-  "github.com/daixiang0"
+  "github.com/mathieupost"
 )
 ```
 
@@ -96,7 +96,7 @@ import (
   // golang
   _ "github.com/golang"
 
-  "github.com/daixiang0/gci"
+  "github.com/mathieupost/gci"
 )
 ```
 
@@ -108,7 +108,7 @@ import (
   "fmt"
   // golang
   _ "github.com/golang"
-  "github.com/daixiang0"
+  "github.com/mathieupost"
 )
 ```
 
@@ -122,7 +122,7 @@ import (
   // golang
   _ "github.com/golang"
 
-  "github.com/daixiang0/gci"
+  "github.com/mathieupost/gci"
 )
 ```
 
